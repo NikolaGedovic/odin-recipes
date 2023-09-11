@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #75abbc;
+    font-family: monospace, sans-serif;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-name {
+    font-family: fantasy, sans-serif;
+    font-size: 50px;
+}
+
+.recipes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+
+.links:hover {
+    color: #0C356A;
+}

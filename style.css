@@ -4,12 +4,46 @@ html {
     font-family: monospace, sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
 .heading {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    background-color: #A2C579;
+    border-style: groove;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.navigation a:hover {
+    color: #0C356A;
+    background-color: #FFFFDD;
+}
+
+/* Home Page */
 
 .heading-name {
     font-family: fantasy, sans-serif;
@@ -30,4 +64,35 @@ html {
 
 .links:hover {
     color: #0C356A;
+}
+
+/* Mac and Cheese Page */
+
+.recipe-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+}
+
+.recipe-img {
+    padding: 40px;
+}
+
+.recipe-ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-directions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    margin: 0 200px;
 }
